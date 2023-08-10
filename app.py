@@ -18,7 +18,7 @@ def main():
                                 options=['New', 'Example'])
     if data_options == 'Example':
         csv_examples = ['Amazon', 'Electric Production', 'Passengers']
-        uploaded_file = st.selectbox(label='Choose column with Values',
+        uploaded_file = st.selectbox(label='Choose dataset example',
                                      options=csv_examples)
         st.write(uploaded_file)
         if uploaded_file == 'Amazon':
